@@ -1,11 +1,11 @@
 # GetJob
 
-A full‑stack job portal with a React (Vite) frontend and a Node.js/Express + MongoDB backend. The app enables job seekers to discover and save jobs, and employers to post and manage listings.
+A full‑stack job portal with a React (Vite) frontend and a Node.js/Express backend. Originally built with MongoDB, the backend has been migrated to Supabase for data storage and auth. The app enables job seekers to discover and save jobs, and employers to post and manage listings.
 
 ## Tech stack
 - Frontend: React + Vite
 - Backend: Node.js, Express
-- Database: MongoDB (Mongoose)
+- Database: Supabase (Postgres) via `@supabase/supabase-js`
 
 ## Monorepo structure
 ```
@@ -42,10 +42,13 @@ App starts on http://localhost:5173 by default.
 ## Environment variables
 Create `backend/.env` with e.g.:
 ```
-MONGODB_URI=mongodb://localhost:27017/getjob
-JWT_SECRET=replace_with_strong_secret
 PORT=5000
 CLIENT_URL=http://localhost:5173
+JWT_SECRET=replace_with_strong_secret
+
+# Supabase
+SUPABASE_URL=https://your-project-id.supabase.co
+SUPABASE_ANON_KEY=your_anon_key
 ```
 
 ## Scripts

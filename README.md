@@ -71,5 +71,3 @@ See `backend/controllers` and `backend/routes`:
 ## Contributing
 See `CONTRIBUTING.md` for setup, branching and commit guidelines.
 
-## License
-Choose a license before releasing publicly.

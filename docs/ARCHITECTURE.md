@@ -2,7 +2,7 @@
 
 - Frontend: React (Vite), communicates with backend via REST using Axios
 - Backend: Node.js/Express with route/controller/service layers
-- Database: MongoDB via Mongoose models
+- Database: Supabase
 - Auth: JWT-based, HTTP-only cookies or Authorization header (see implementation)
 
 ## Key directories

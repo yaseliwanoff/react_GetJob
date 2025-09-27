@@ -1,6 +1,6 @@
 # GetJob
 
-A full‑stack job portal with a React (Vite) frontend and a Node.js/Express backend. Originally built with MongoDB, the backend has been migrated to Supabase for data storage and auth. The app enables job seekers to discover and save jobs, and employers to post and manage listings.
+A full‑stack job portal with a React (Vite) frontend and a Node.js/Express backend. Originally built with Supabase, the backend has been migrated to Supabase for data storage and auth. The app enables job seekers to discover and save jobs, and employers to post and manage listings.
 
 ## Tech stack
 - Frontend: React + Vite
@@ -19,7 +19,7 @@ JobPortal/
 Prerequisites:
 - Node.js 18+
 - npm 9+
-- MongoDB (local or cloud, e.g. Atlas)
+- Supabase (local or cloud, e.g. Atlas)
 
 1) Backend
 - Copy `.env.example` to `.env` in `backend/` and fill in values
